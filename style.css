@@ -32,7 +32,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     max-width: 100%;
-    width: 350px;
+    width: 400px;
 }
 
 .progress-container::before {
@@ -73,7 +73,8 @@ body {
 }
 
 .circle.active {
-    background-color: var(--filled-line);
+     border-color: var(--filled-line);
+     color: black;
 
 }
 
